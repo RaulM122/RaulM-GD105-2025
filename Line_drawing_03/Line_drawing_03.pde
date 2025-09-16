@@ -1,8 +1,7 @@
-void setup(){
+import processing.svg.*;
   size(400, 400);
-}
 
-void draw(){
+  beginRecord(SVG, "mythirdPlotter");
   background(#40F5B1);
   line(400, 70, 0, 60);
   line(60, 340, 0, height -400);
@@ -13,4 +12,4 @@ void draw(){
   line(0,0,400,400);
   line(50,50,100,0);
   line(width -50,50,width -100,0);
-}
+  endRecord();

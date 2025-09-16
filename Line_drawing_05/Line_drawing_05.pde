@@ -1,8 +1,7 @@
-void setup(){
+import processing.svg.*;
   size(800, 800);
-}
 
-void draw(){
+  beginRecord(SVG, "myfifthPlotter");
   background(#FCB530);
   stroke(50);
   fill(#DA7DF7);
@@ -18,4 +17,4 @@ void draw(){
  line(0,0,width -200, 100);
  line(0,600,700,0);
  line(0, 600, width -700, 0);
-}
+endRecord();
