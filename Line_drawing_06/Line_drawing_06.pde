@@ -1,6 +1,8 @@
 import processing.svg.*;
+void setup(){
    size(600,600);
-   
+}
+void draw(){
    beginRecord(SVG, "mysixthPlotter");
    fill(#44D4FA);
    circle(300,150, 300);
@@ -10,3 +12,4 @@ import processing.svg.*;
    line(0,0,150,150);
    line(width -0, 0, width -150, 150);
    endRecord();
+}

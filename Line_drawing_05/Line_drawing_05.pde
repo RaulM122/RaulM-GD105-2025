@@ -1,8 +1,9 @@
 import processing.svg.*;
+void setup(){
   size(800, 800);
-
+}
+void draw(){
   beginRecord(SVG, "myfifthPlotter");
-  background(#FCB530);
   stroke(50);
   fill(#DA7DF7);
   ellipseMode(CENTER);
@@ -18,3 +19,4 @@ import processing.svg.*;
  line(0,600,700,0);
  line(0, 600, width -700, 0);
 endRecord();
+}
