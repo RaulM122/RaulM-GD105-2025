@@ -1,3 +1,4 @@
+ boolean birds, boingo, harley;
  import processing.sound.*;
  SoundFile foo, bar;
  
