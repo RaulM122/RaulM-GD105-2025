@@ -94,6 +94,7 @@ resetMatrix();
 if(frameCount ==1){
   save("project2Collage.png");
  }
- 
- void scaryCats(PImage i, float x, float y, float scale, float x3jitter
+}
+void scaryCats(PImage i, float x, float y, float scale, float x3jitter){
+  
 }
