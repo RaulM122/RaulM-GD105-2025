@@ -28,4 +28,14 @@ class Simon {
     //textAlign(RIGHT);
     circle(x, y, radius * 2); 
   }
+  
+  void loseLife(){
+    lives--;
+    if(lives <=0){
+      isAlive = false;
+    }
+  }
+  void addScore(int points) {
+    Score += points;
+  }
 }
